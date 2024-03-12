@@ -1,0 +1,34 @@
+/* JournalEntryForm.css */
+.journal-entry-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.editor-container {
+  width: 100%;
+  max-width: 1000px; /* Adjust the max-width as needed */
+  text-align: center;
+  margin-bottom: 20px; /* Add margin for separation */
+}
+
+.editor {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-top: 10px;
+}
+
+.publish-button {
+  background-color: #3490dc;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.publish-button:hover {
+  background-color: #2779bd;
+}

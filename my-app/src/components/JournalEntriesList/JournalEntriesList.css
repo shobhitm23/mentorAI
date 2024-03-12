@@ -1,0 +1,57 @@
+/* JournalEntriesList.css */
+.entries-list {
+    list-style-type: none;
+    border: 1px solid #ced4da; /* Replace with your border color */
+    border-radius: 0.375rem; /* Replace with your border-radius */
+    padding: 0;
+  }
+  
+  .entry {
+    margin-bottom: 1.5rem; /* Replace with your desired margin */
+    margin-left: 1rem; /* Replace with your desired margin */
+    position: relative;
+  }
+  
+  .bullet {
+    position: absolute;
+    width: 0.1875rem; /* Replace with your desired bullet width */
+    height: 0.1875rem; /* Replace with your desired bullet height */
+    background-color: #ced4da; /* Replace with your bullet color */
+    border-radius: 50%;
+    top: 1.5rem; /* Adjust the positioning as needed */
+    left: -1rem; /* Adjust the positioning as needed */
+  }
+  
+  .entry-date {
+    margin-bottom: 0.5rem; /* Replace with your desired margin */
+    font-size: 0.875rem; /* Replace with your desired font size */
+    font-weight: normal; /* Replace with your desired font weight */
+    color: #868e96; /* Replace with your desired text color */
+  }
+  
+  .entry-title {
+    margin-bottom: 0.5rem; /* Replace with your desired margin */
+    font-size: 1.25rem; /* Replace with your desired font size */
+    font-weight: bold; /* Replace with your desired font weight */
+    color: #212529; /* Replace with your desired text color */
+  }
+  
+  .entry-description {
+    margin-bottom: 1rem; /* Replace with your desired margin */
+    font-size: 1rem; /* Replace with your desired font size */
+    font-weight: normal; /* Replace with your desired font weight */
+    color: #495057; /* Replace with your desired text color */
+  }
+  
+  .entry-link {
+    font-size: 0.875rem; /* Replace with your desired font size */
+    font-weight: medium; /* Replace with your desired font weight */
+    color: #007bff; /* Replace with your desired link color */
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .arrow {
+    margin-left: 0.25rem; /* Adjust the spacing as needed */
+  }
+  
