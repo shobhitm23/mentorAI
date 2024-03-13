@@ -1,0 +1,90 @@
+/* JournalEntryForm.css */
+.entry-form {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.entry-container {
+  width: 100%;
+  margin-bottom: 1rem;
+  border: 1px solid #ced4da;
+  border-radius: 0.375rem;
+  background-color: #f8f9fa;
+}
+
+.entry-header {
+  padding: 0.5rem 1rem;
+  background-color: #fff;
+  border-top-left-radius: 0.375rem;
+  border-top-right-radius: 0.375rem;
+}
+
+.entry-textarea {
+  width: 100%;
+  padding: 0;
+  font-size: 0.875rem;
+  color: #495057;
+  background-color: #fff;
+  border: 0;
+  outline: 0;
+  border-radius: 0;
+  -webkit-transition: background-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: background-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.entry-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.375rem 1rem;
+  border-top: 1px solid #ced4da;
+  background-color: #fff;
+  border-bottom-left-radius: 0.375rem;
+  border-bottom-right-radius: 0.375rem;
+}
+
+.post-button {
+  padding: 0.625rem 1.25rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-align: center;
+  color: #fff;
+  background-color: #007bff;
+  border: 1px solid #007bff;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  -webkit-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.entry-buttons {
+  display: flex;
+  gap: 0.25rem;
+}
+
+.attachment-button {
+  padding: 0.5rem;
+  color: #495057;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  -webkit-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.publish-button {
+  background-color: #3490dc;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.publish-button:hover {
+  background-color: #2779bd;
+}
+
+
+/* Add styles for other buttons as needed */
