@@ -24,6 +24,7 @@ function JournalEntryPage() {
     const formattedDate = new Date().toLocaleDateString('en-US', options);
 
     const newEntry = {
+      title: "New Entry",
       content: entryContent,
       date: formattedDate,
     };
@@ -32,10 +33,16 @@ function JournalEntryPage() {
     setEntryContent('');
   }
 
+  function deleteEntry(index) {
+    const newEntries = [...entries];
+    newEntries.splice(index, 1);
+    setEntries(newEntries);
+  };
+
   return (
     <div className="journal-entry-form">
-      <JournalEntryForm />
-      <JournalEntriesList />
+      <JournalEntryForm handleSubmit={handleSubmit} entryContent={entryContent} setEntryContent={setEntryContent} />
+      <JournalEntriesList entries={entries} deleteEntry={deleteEntry}/>
     </div>
   );
 }

@@ -1,0 +1,19 @@
+.home-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.get-started {
+    /* Add animation */
+    transition: all 0.3s ease;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    background-color: #58825a;
+}
+
+.get-started:hover {
+    /* Change color on hover */
+    background-color: #3b5729;
+}

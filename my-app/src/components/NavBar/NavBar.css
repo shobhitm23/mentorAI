@@ -1,0 +1,65 @@
+/* NavBar.css */
+
+/* Container for the navbar */
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+    background-color: #ececec; /* Light grey background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+/* Logo */
+.navbar__logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333333;
+    transition: color 0.3s ease;
+}
+
+.navbar__logo:hover {
+    color: #666666;
+}
+
+/* Navigation links */
+.navbar__links {
+    display: flex;
+    gap: 1rem;
+}
+
+.navbar__link {
+    color: #333333;
+    text-decoration: none;
+    padding: 0.5rem 1rem; /* Add some padding to make the links more clickable */
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.navbar__link:hover {
+    color: #666666;
+    background-color: #e0e0e0; /* Light grey background on hover */
+}
+
+/* NavBar.css */
+
+
+  
+.navbar button {
+    background-color: #58825a; /* Green background */
+    border: none;
+    color: white; /* White text */
+    padding: 15px 32px; /* Padding around the text */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Transition for hover effect */
+}
+  
+.navbar button:hover {
+    background-color: #3b5729; /* Darker green when hovered over */
+}

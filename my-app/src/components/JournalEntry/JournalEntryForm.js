@@ -1,9 +1,9 @@
 import React from 'react';
 import './JournalEntryForm.css';
 
-function JournalEntryForm() {
+function JournalEntryForm({ handleSubmit, entryContent, setEntryContent}) {
   return (
-    <form className="entry-form">
+    <form className="entry-form" onSubmit={handleSubmit}>
       <div className="entry-container">
         <div className="entry-header">
           <textarea
@@ -11,13 +11,14 @@ function JournalEntryForm() {
             rows="4"
             className="entry-textarea"
             placeholder="Write a comment..."
+            value={entryContent}
+            onChange={ event => setEntryContent(event.target.value) }
             required
           />
         </div>
         <div className="entry-footer">
           <button
             type="submit"
-           /* onClick={handleSubmit}*/
             className="publish-button">
             Publish post
           </button>
