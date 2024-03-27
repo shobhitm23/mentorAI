@@ -10,7 +10,7 @@ const Navbar = () => {
             <i className="bi bi-journal"></i> journal
           </a>
         </div>
-        <ul className="navbar-menu">
+        <ul className="navbar-menu flex-auto justify-end flex">
           <li className="navbar-item">
             <a href="/about">About</a>
           </li>

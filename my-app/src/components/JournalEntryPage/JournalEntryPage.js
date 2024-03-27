@@ -1,8 +1,10 @@
-// JournalEntryForm.js
 import React, { useState } from 'react';
 import './JournalEntryPage.css';
 import JournalEntriesList from '../JournalEntriesList/JournalEntriesList.js';
 import JournalEntryForm from '../JournalEntry/JournalEntryForm.js';
+import JournalCard from '../JournalCard/JournalCard.js';
+import { ThemeProvider } from '@mui/material/styles';
+import theme from '../../theme.js';
 
 function JournalEntryPage() {
   const [entryContent, setEntryContent] = useState('');
@@ -43,6 +45,10 @@ function JournalEntryPage() {
     <div className="journal-entry-form">
       <JournalEntryForm handleSubmit={handleSubmit} entryContent={entryContent} setEntryContent={setEntryContent} />
       <JournalEntriesList entries={entries} deleteEntry={deleteEntry}/>
+
+      <ThemeProvider theme={theme}>
+        <JournalCard entries={entries} deleteEntry={deleteEntry}/>
+      </ThemeProvider>
     </div>
   );
 }

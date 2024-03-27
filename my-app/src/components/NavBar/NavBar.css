@@ -1,8 +1,8 @@
 /* Navbar.css */
 
 .navbar {
-    background-color: #4e8547;
-    color: #fff;
+    background-color: #ffffff;
+    color: #000000;
     padding: 1rem;
     display: flex;
     justify-content: center;
@@ -17,7 +17,7 @@
   }
   
   .navbar-logo a {
-    color: #fff;
+    color: #000000;
     font-size: 1.5rem;
     text-decoration: none;
     display: flex;
@@ -36,14 +36,14 @@
   }
   
   .navbar-item a {
-    color: #fff;
+    color: #000000;
     text-decoration: none;
     padding: 1.5rem 1rem;
     transition: background-color 0.3s ease;
   }
   
   .navbar-item a:hover {
-    background-color: #2a5425;
+    background-color: #58825a;
   }
   
   .navbar-actions {
@@ -51,15 +51,15 @@
   }
   
   .navbar-btn {
-    color: #fff;
+    color: #000000;
     text-decoration: none;
     padding: 0.5rem 1rem;
     margin-left: 1rem;
-    border: 0.5px solid #fff;
+    border: 0.5px solid #000000;
     border-radius: 4px;
     transition: background-color 0.3s ease;
   }
   
   .navbar-btn:hover {
-    background-color: #2a5425;
+    background-color: #58825a;
   }
